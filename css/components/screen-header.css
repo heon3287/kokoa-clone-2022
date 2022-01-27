@@ -12,11 +12,11 @@
   font-weight: 600;
 }
 
-.screen-header__icons {
+.screen-header__dot {
   position: relative;
 }
 
-.screen-header__dot {
+.screen-header__dot span {
   background-color: tomato;
   width: 6px;
   height: 6px;
@@ -25,8 +25,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 70px;
-  bottom: 20px;
+  left: -5px;
+  top: -5px;
 }
 
 .screen-header__icons span {
